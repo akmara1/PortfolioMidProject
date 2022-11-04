@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <nav class="header__nav">
+                    <a class="header__item" href="#home">Home</a>
+                    <a class="header__item" href="#about">About</a>
+                    <a class="header__item" href="#skills">My Experience</a>
+                    <a class="header__item" href="#projects">My Projects</a>
+                    <a class="header__item" href="#assess">Assess</a>
+                    <a class="header__item" href="#api">API</a>
+                    <a class="header__item" href="#contacts">Contacts</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Nurbek kyzy Akmaral
+                </h1>
+                <div class="border_photo">
+                    <img src="./img/photo_2022-09-29_12-41-45.jpg" alt="" class="hero_photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features" id="skills">
+        <div class="container">
+            <div class="features__content">
+                <h1 class="features__title">Skills</h1>
+                <div class="features_skills">
+                    <div class="features__box">
+                        <img src="./img/Python-logo-notext.svg.png" alt="" class="features__img">
+                        <p class="features__text">Python</p>
+                    </div>
+                    <div class="features__box">
+                        <img src="./img/java-logo-1.png" alt="" class="features__img">
+                        <p class="features__text">Java</p>
+                    </div>
+                    <div class="features__box">
+                        <img src="./img/html.png" alt="" class="features__img">
+                        <p class="features__text">HTML</p>
+                    </div>
+                    <div class="features__box">
+                        <img src="./img/css.png" alt="" class="features__img">
+                        <p class="features__text">CSS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <section class="about" id="about">
+        <h1 class="about__title">
+            About Myself
+        </h1>
+        <p class="about__text">
+            I'm Akmaral. I'm Computer Science student at Ala-Too International University. I have studied Python, basics of Front-end Development at the courses. I am an intern at Ant Tech Company as a DevsOps Developer. I like volunteering, reading, volleyball and
+        </p>
+    </section>
+    <section class="rooms" id="projects">
+        <div class="container">
+            <div class="rooms__content">
+                <h1 class="rooms__title">My Projects</h1>
+                <div class="rooms__sector">
+                    <div class="rooms__box">
+                        <div class="rooms__boxbox">
+                            <img src="./img/to-do-list-apps.png" alt="" class="room__img">
+                            <h3 class="rooms__name">To-Do List</h3>    
+                        </div>
+                        <div class="rooms__boxbox">               
+                            <img src="./img/apps_paint.jpg" alt="" class="room__img">
+                            <h3 class="rooms__word">Image Editor</h3>
+                        </div>
+                    </div>
+                    <div class="rooms__box">
+                        <div class="rooms__boxbox">
+                            <img src="./img/build.jpg" alt="" class="room__img">
+                            <h3 class="rooms__name">Web site for Building Company</h3>    
+                        </div>
+                        <div class="rooms__boxbox">               
+                            <img src="./img/kfc-main.jpg" alt="" class="room__img">
+                            <h3 class="rooms__word">Order Box</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form" id="assess">
+        <div class="container">
+            <div class="form__content">      
+                    <h1 class="form__title">Assess my Portfolio</h1>
+                    <input class="form__input"placeholder="Your first name" type="text">
+                    <input class="form__input"placeholder="Your last name" type="text">
+                    <button class="form__btn">OK</button>
+                    <div class="form-open">
+                        <div class="form-hiden">
+                            <h3 class="form-hiden__title">Do you like my portfolio?</h3>
+                            <button class="form-hiden__btn" id="yes">Yes</button>
+                            <button class="form-hiden__btn" id="no">No</button>
+                        </div>
+                        <div class="yes-text" id="yes-text">
+                            <p class="yes-text-title">Thanks a lot! ))</p>
+                            <img src="./img/close.png" alt="" class="form-close" id="close1">
+                            <img src="./img/thanks.webp" alt="" class="yes-text__img">
+                        </div>
+                        <div class="yes-text" id="no-text">
+                            <p class="yes-text-title">OK, I will do it better next time))</p>
+                            <img src="./img/close.png" alt="" class="form-close" id="close2">
+                            <img src="./img/Thinking-face-emoji-vector-PNG.png" alt="" class="yes-text__img">
+                        </div> 
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="api" id="api">
+        <div class="api__box">
+            <h2 class="api__title">API</h2>
+            <p class="api__descr">There is kind of activity that you can do when you are bored</p>
+            <div class="api-get">
+                <h3 class="api-get__title"></h3>
+                <p class="api-get__text"></p>
+                <p class="api-get__num"></p>
+                <button class="api-get__btn" onclick="changeActivity()">Change Activity</button>
+            </div>
+        </div>
+    </section> 
+    <section class="video">
+        <div class="container">
+            <h2 class="video__title">Watch a video</h2>
+            <div class="video__content">
+                <iframe width="747" height="420" src="https://www.youtube.com/embed/0MiMlUU0DsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-watch"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__content">
+                <h1 class="footer__title">Contacts</h1>
+                <ul class="footer__contact">                 
+                    <a href="https://www.instagram.com/akmaralnurbekovva/"><img src="./img/instagram-logo-pink-10679.svg" alt="" class="logo1"></a>
+                    <a href="mailto:akmaralnurbekova03@gmail.com"><img src="./img/gmail-logo-2561.svg" alt="" class="logo2"></a>
+                    <a href="https://t.me/akmaral2710"><img src="./img/telegram-logo-5941.svg" alt="" class="logo3"></a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="./js/fetch.js"></script>
+    <script src="./js/show.js"></script>
+</body>
+</html>

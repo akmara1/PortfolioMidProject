@@ -1,0 +1,37 @@
+.rooms{
+    background-color: #242B33;
+    text-align: center;
+}
+
+
+.rooms__title{
+    left: 405px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    padding-top: 105px;
+}
+
+.rooms__box{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 80px;
+}
+.rooms__name,.rooms__word{
+    font-weight: normal;
+    margin-top: -100px;
+    padding-left: 30px;
+}
+.rooms__sector{
+    margin-top: 70px;
+}
+
+.room__img {
+    width: 500px;
+    height: 350px;
+    cursor: pointer;
+}
+
+

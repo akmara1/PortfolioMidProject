@@ -1,0 +1,14 @@
+.about {
+    margin: 60px auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.about__text {
+    color: white;
+    font-size: 20px;
+    max-width: 600px;
+    line-height: 30px;
+}
+
