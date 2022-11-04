@@ -10,11 +10,7 @@
     color:#D4C17F;
     font-size: 36px;
 }
-.form__deskr{
-    color: white;
-    font-size: 16px;
-    font-family: Raleway;
-}
+
 .form__input{
     background: rgba(255, 255, 255, 0.2);
     padding: 12px 20px;
@@ -115,11 +111,3 @@
     top: 5px;
     right: 5px;
 }
-
-/* .form-window {
-    display: none;
-}
-
-.form-window.active {
-    display: block;
-} */

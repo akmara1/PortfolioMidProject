@@ -1,11 +1,4 @@
 @media only screen and (max-width: 400px){
-    .container{
-        width: 100%;
-    }
-
-    h1{
-        font-size: 20px;
-    }
 
     .header__nav{
         width: 350px;
@@ -15,13 +8,116 @@
 
     .header__item{
         font-size: 14px;
-    }
-    .header__item{
-        margin-left: 10px;
-    }
-
-    .footer_contact{
-        width: 150px;
+        margin-left: 30px;
     }
     
+    .hero__content{
+        flex-direction: column;
+    }
+
+    .hero__title{
+        position: absolute;
+    }
+
+    .footer__contact{
+        width: 200px;
+    }
+
+    .room__img{
+        width: 300px;
+        height: 250px; 
+        padding-bottom: 50px;
+    }
+
+    .rooms__box{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .api__box {
+        width: 300px;
+        height: 450px;
+        border-radius: 6px;
+    }
+
+    .api__title{
+        left: 0;
+        text-align: center;
+    }
+
+    .rooms__boxbox{
+        margin-bottom: 40px;
+    }
+    
+    .features {
+        margin-top: 20px;
+    }
+
+    .features_skills{
+        flex-wrap: wrap;
+    }
+
+    .features__text{
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+    .features__box{
+        margin: 0 auto;
+    }
+
+    .form__input{
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .form{
+        padding-top: 10px;
+    }
+
+    .about__text{
+        width: 300px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .about__title{
+        font-size: 36px;
+    }
+    
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+
+    .border_photo{
+        width: 300px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .hero_photo{
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+    
+        animation-name: m-animation;
+    }
+    
+    @keyframes m-animation {
+        from{
+          width: 300px;
+          height: auto;
+        }
+        to{
+          width: 250px;
+          height: auto;
+        }
+      }
+
+      .yes-text {
+        left: 1%;
+        width: 350px;
+      }
 }
