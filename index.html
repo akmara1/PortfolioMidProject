@@ -14,60 +14,80 @@
                 <nav class="header__nav">
                     <a class="header__item" href="#home">Home</a>
                     <a class="header__item" href="#about">About</a>
-                    <a class="header__item" href="#skills">My Experience</a>
+                    <a class="header__item" href="#resume">My Resume</a>
                     <a class="header__item" href="#projects">My Projects</a>
                     <a class="header__item" href="#assess">Assess</a>
                     <a class="header__item" href="#api">API</a>
+                    <a class="header__item" href="#gallery">Gallery</a>
                     <a class="header__item" href="#contacts">Contacts</a>
                 </nav>
             </div>
         </div>
     </header>
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero__content">
-                <h1 class="hero__title">
-                    Nurbek kyzy Akmaral
-                </h1>
-                <div class="border_photo">
-                    <img src="./img/photo_2022-09-29_12-41-45.jpg" alt="" class="hero_photo">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="features" id="skills">
-        <div class="container">
-            <div class="features__content">
-                <h1 class="features__title">Skills</h1>
-                <div class="features_skills">
-                    <div class="features__box">
-                        <img src="./img/Python-logo-notext.svg.png" alt="" class="features__img">
-                        <p class="features__text">Python</p>
-                    </div>
-                    <div class="features__box">
-                        <img src="./img/java-logo-1.png" alt="" class="features__img">
-                        <p class="features__text">Java</p>
-                    </div>
-                    <div class="features__box">
-                        <img src="./img/html.png" alt="" class="features__img">
-                        <p class="features__text">HTML</p>
-                    </div>
-                    <div class="features__box">
-                        <img src="./img/css.png" alt="" class="features__img">
-                        <p class="features__text">CSS</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>  
+    
     <section class="about" id="about">
-        <h1 class="about__title">
-            About Myself
-        </h1>
-        <p class="about__text">
-            I'm Akmaral. I'm Computer Science student at Ala-Too International University. I have studied Python, basics of Front-end Development at the courses. I am an intern at Ant Tech Company as a DevsOps Developer. I like volunteering, reading, volleyball and singing. My hobbies are playing komuz and reading.
-        </p>
+        <div class="container">
+            <h1 class="about__title">About Me</h1>
+            <div class="about__content">
+                <p class="about__text">
+                    Hello, I'm Akmaral, a Computer Science student at Ala-Too International University. I'm a passionate technologist with a strong background in Python and a keen interest in DevOps engineering. I've also dabbled in Front-end Development.
+                  </p>
+                  <p class="about__text">
+                    Currently, I work as a DevOps Engineer at Ant Tech Company, where I specialize in orchestrating infrastructure with Kubernetes, managing cloud resources on Azure and AWS, and automating workflows with Jenkins and GitLab. Outside of work, I enjoy volunteering, reading, playing volleyball, and singing. I have a deep love for my culture and enjoy playing the traditional Kyrgyz instrument, the komuz. I'm always on a quest for knowledge and love diving into books.
+                </p>                
+            </div>
+        </div>
     </section>
+    
+    
+    <section class="resume" id="resume">
+        <div class="container">
+            <h1 class="resume__title">My Resume</h1>
+            <div class="resume__section">
+                <h2 class="resume__section-title">Education</h2>
+                <div class="resume__entry">
+                    <h3 class="resume__entry-title">Bachelor's Degree in Computer Science</h3>
+                    <p class="resume__entry-details">
+                        Ala-Too International University, Bishkek, Kyrgyzstan
+                    </p>
+                </div>
+            </div>
+            <div class="resume__section">
+                <h2 class="resume__section-title">Work Experience</h2>
+                <div class="resume__entry">
+                    <h3 class="resume__entry-title">DevOps Engineer</h3>
+                    <p class="resume__entry-details">
+                        Ant Tech Company, Bishkek, Kyrgyzstan
+                    </p>
+                    <p class="resume__entry-details">
+                        November 2022 - Present
+                    </p>
+                    <p class="resume__entry-description">
+                        - Managed and orchestrated containerized applications using Kubernetes.
+                        - Automated infrastructure provisioning with Terraform on Azure cloud.
+                        - Set up and maintained CI/CD pipelines with Jenkins, GitLab, and Azure Devops.
+                        - Deployed and managed cloud resources on AWS.
+                    </p>
+                </div>
+                <!-- Add more work experience entries as needed -->
+            </div>
+            <div class="resume__section">
+                <h2 class="resume__section-title">Skills</h2>
+                <ul class="resume__skills">
+                    <li class="resume__skill">Kubernetes</li>
+                    <li class="resume__skill">Terraform</li>
+                    <li class="resume__skill">Azure</li>
+                    <li class="resume__skill">Jenkins</li>
+                    <li class="resume__skill">CI/CD</li>
+                    <li class="resume__skill">GitLab</li>
+                    <li class="resume__skill">Docker</li>
+                    <li class="resume__skill">AWS</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+            </div>
+        </div>
+    </section>
+    
     <section class="rooms" id="projects">
         <div class="container">
             <div class="rooms__content">
@@ -134,22 +154,55 @@
             </div>
         </div>
     </section> 
-    <section class="video">
+    <section class="gallery" id="gallery">
         <div class="container">
-            <h2 class="video__title">Watch a video</h2>
-            <div class="video__content">
-                <iframe width="747" height="420" src="https://www.youtube.com/embed/0MiMlUU0DsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video-watch"></iframe>
+            <h2 class="gallery__title">Gallery</h2>
+            <div class="gallery__content">
+                <div class="gallery__item">
+                    <img src="./img/image1.jpg" alt="Image 1">
+                    <div class="gallery__item-caption">Image 1</div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./img/image2.jpg" alt="Image 2">
+                    <div class="gallery__item-caption">Image 2</div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./img/image3.jpg" alt="Image 3">
+                    <div class="gallery__item-caption">Image 3</div>
+                </div>
+                <div class="gallery__item">
+                    <img src="./img/image4.jpg" alt="Image 4">
+                    <div class="gallery__item-caption">Image 4</div>
+                </div>
+                <!-- Add more gallery items with images and captions as needed -->
             </div>
         </div>
     </section>
+    
     <footer class="footer" id="contacts">
         <div class="container">
-            <div class="footer__content">
-                <h1 class="footer__title">Contacts</h1>
-                <ul class="footer__contact">                 
-                    <a href="https://www.instagram.com/akmaralnurbekovva/"><img src="./img/instagram-logo-pink-10679.svg" alt="" class="logo1"></a>
-                    <a href="mailto:akmaralnurbekova03@gmail.com"><img src="./img/gmail-logo-2561.svg" alt="" class="logo2"></a>
-                    <a href="https://t.me/akmaral2710"><img src="./img/telegram-logo-5941.svg" alt="" class="logo3"></a>
+            <h1 class="contact__title">Contact Me</h1>
+            <div class="contact__content">
+                <p class="contact__text">
+                    Feel free to get in touch with me. I'm available for collaboration, questions, or just a friendly chat. You can reach me through the following channels:
+                </p>
+                <ul class="contact__info">
+                    <li class="contact__info-item">
+                        <img src="img/instagram-logo-pink-10679.svg" alt="Instagram Icon">
+                        <a href="https://www.instagram.com/akmaralnurbekovva/">Instagram</a>
+                    </li>
+                    <li class="contact__info-item">
+                        <img src="img/gmail-logo-2561.svg" alt="Email Icon">
+                        <a href="mailto:akmaralnurbekova03@gmail.com">Email</a>
+                    </li>
+                    <li class="contact__info-item">
+                        <img src="img/telegram-logo-5941.svg" alt="Telegram Icon">
+                        <a href="https://t.me/akmara1ka">Telegram</a>
+                    </li>
+                    <li class="contact__info-item">
+                        <img src="img/linkedin.png" alt="LinkedIn Icon">
+                        <a href="https://www.linkedin.com/in/akmaral-nurbek-kyzy-63aa63284">LinkedIn</a>
+                    </li>
                 </ul>
             </div>
         </div>

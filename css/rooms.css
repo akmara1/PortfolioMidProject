@@ -1,34 +1,61 @@
-.rooms{
-    background-color: #242B33;
+/* Style for the entire projects section */
+.rooms {
+    background-color: #f5f5f5;
+    padding: 20px 0;
     text-align: center;
-}
-
-
-.rooms__title{
-    left: 405px;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    color: #D4C17F;
-    padding-top: 105px;
-}
-
-.rooms__box{
+  }
+  
+  /* Style for the projects section title */
+  .rooms__title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the content within the projects section */
+  .rooms__content {
     display: flex;
-    justify-content: space-between;
-    color: white;
-    margin-top: 80px;
-}
-.rooms__name,.rooms__word{
-    font-weight: normal;
-    margin-top: -100px;
-    padding-left: 30px;
-}
-
-.room__img {
-    width: 500px;
-    height: 350px;
-    cursor: pointer;
-}
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Style for individual project boxes */
+  .rooms__box {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Style for project images */
+  .room__img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Style for project names */
+  .rooms__name,
+  .rooms__word {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Style for specific project types */
+  .rooms__name {
+    font-weight: bold;
+  }
+  
+  /* Hover effect for project boxes */
+  .rooms__box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
 
 

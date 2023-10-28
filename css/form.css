@@ -1,113 +1,111 @@
-.form{
-    padding-top: 120px;
-    height: 360px;
-    align-items: center;
-    margin-top: 100px;
-}
-
-
-.form__title{
-    color:#D4C17F;
-    font-size: 36px;
-}
-
-.form__input{
-    background: rgba(255, 255, 255, 0.2);
-    padding: 12px 20px;
-    width: 180px;
-    border: none;
-}
-.form__input::webkit-input-placeholder{
-    color: #BEBEBE;
-    font-size: 14px;
-    font-family: Raleway;
-
-}
-.form__warning{
-    color: #E7E7E7;
-    font-family: Raleway;
-    font-size: 13px;
-    line-height: 16px;
-    width: 255px;
-    height: 28px;
-    left: 975px;
-    top: 2407px;
-}
-.form__btn{
-    background: #D4C17F;
-    padding: 12px 54px;
-    border: none;
-    color: white;
-    font-weight: bold;
-    font-family: Raleway;
-    font-size: 16px;
-}
-.form__content{
+/* Style for the entire assess section */
+.form {
+    background-color: #f5f5f5;
+    padding: 20px 0;
     text-align: center;
-    position: relative;
-}
-.form__left{
-    max-width: 45%;
-}
-.form__right{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 65px;
-}
-
-.form-hiden {
-    width: 300px;
-    height: 150px;
-    background-color: wheat;
+  }
+  
+  /* Style for the container within the assess section */
+  .container {
+    max-width: 1110px;
     margin: 0 auto;
+  }
+  
+  /* Style for the assess content */
+  .form__content {
     text-align: center;
-    padding-top: 30px;
-    border-radius: 10%;
+  }
+  
+  /* Style for the assess title */
+  .form__title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for input fields */
+  .form__input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style for the "OK" button */
+  .form__btn {
+    padding: 10px 20px;
+    background-color: #333; /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth color transition on hover */
+  
+    /* Style for button hover effect */
+    :hover {
+      background-color: #D4C17F; /* Change to your desired hover color */
+    }
+  }
+  
+  /* Style for the form open container */
+  .form-open {
+    margin: 20px 0;
+  }
+  
+  /* Style for the hidden form */
+  .form-hiden {
     display: none;
-}
-
-.form-hiden.active {
-    display: block;
-}
-
-#yes-text {
+  }
+  
+  /* Style for the hidden form title */
+  .form-hiden__title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for hidden form buttons */
+  .form-hiden__btn {
+    padding: 10px 20px;
+    background-color: #333; /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth color transition on hover */
+  
+    /* Style for button hover effect */
+    :hover {
+      background-color: #D4C17F; /* Change to your desired hover color */
+    }
+  }
+  
+  /* Style for the "Yes" text section */
+  .yes-text {
     display: none;
-}
-
-#no-text {
-    display: none;
-}
-
-.yes-text {
-    position: absolute;
-    top: 80px;
-    left: 37%;
-    background-color: aliceblue;
-    width: 370px;
-    height: 300px;
-    border-radius: 20px;
-}
-
-#yes-text.active {
-    display: block;
-}
-
-#no-text.active {
-    display: block;
-}
-
-.yes-text__img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.form-close {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-}
+    margin: 20px 0;
+  }
+  
+  /* Style for the "Yes" text title */
+  .yes-text-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the close button */
+  .form-close {
+    cursor: pointer;
+  }
+  
+  /* Style for the "Yes" text image */
+  .yes-text__img {
+    max-width: 100%;
+    height: auto;
+  }
+  

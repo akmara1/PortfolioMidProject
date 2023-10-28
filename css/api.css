@@ -1,27 +1,24 @@
-.api__title{
-    left: 405px;
-    /*top: 1260px;*/
-    font-family: Playfair Display;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    color: #D4C17F;
-}
-
-.api {
-    text-align: center;
-}
-
-.api__box {
+/* Style for the API section title */
+.api__title {
+    /* Your specific styles here, e.g., font-family, font-weight, font-size, color */
+    text-align: center; /* Center the title */
+    margin-top: 20px;
+  }
+  
+  /* Style for the entire API section */
+  .api__box {
     background-color: powderblue;
+    border: 2px solid #333; /* Add a border around the box */
+    padding: 20px; /* Add padding inside the box */
     width: 600px;
-    height: 400px;
+    max-width: 100%;
     border-radius: 10px;
     margin: 0 auto;
-    padding-top: 30px;
-}
-
-.api-get__btn {
+    text-align: center; /* Center the content */
+  }
+  
+  /* Style for the "Change Activity" button */
+  .api-get__btn {
     background-color: black;
     color: white;
     border: none;
@@ -30,9 +27,13 @@
     height: 40px;
     margin-top: 20px;
     border-radius: 10px;
-}
-
-.api-get__text {
-    font-size: 19px;
-    color: rgb(205, 50, 115);
-}
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth color transition on hover */
+  
+    /* Style for button hover effect */
+    :hover {
+      background-color: #D4C17F;
+    }
+  }
+  
+  

@@ -1,30 +1,42 @@
-.header{
-    position: absolute;
-    width: 100%;
-    top: 30px;
-    background-color: #242B33;
-    opacity: 2;
-}
-.header__nav{
-    display: flex;
-    width: 1000px;
-    height: 50px;
-    justify-content: space-around;
-    align-items: center;
-}
-.header__content{
+/* Style for the entire header section */
+.header {
+    background-color: #333; /* Change to your desired background color */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Style for the container within the header */
+  .container {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the header content */
+  .header__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.header__item{
-    color: white;
-    font-family: Raleway;
-    font-size: 20px;
-    letter-spacing: 0.05em;
+  }
+  
+  /* Style for the navigation menu */
+  .header__nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for navigation menu items (links) */
+  .header__item {
+    display: inline-block;
+    margin-right: 20px;
     text-decoration: none;
-}
-
-.header__item:hover{
-    font-weight: bold;
-}
+    color: #fff; /* Link text color */
+    font-size: 18px;
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+  
+    /* Style for link hover effect */
+    :hover {
+      color: #D4C17F; /* Change to your desired hover color */
+    }
+  }
+  
